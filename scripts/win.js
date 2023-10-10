@@ -15,7 +15,7 @@ async function main() {
 
     // did you win? Check the transaction receipt!
     // if you did, it will be in both the logs and events array
-    const receipt = await tx.wait();
+    const receipt = await tx3.wait();
     console.log(receipt);
 }
 
