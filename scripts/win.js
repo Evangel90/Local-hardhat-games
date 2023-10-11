@@ -12,7 +12,7 @@ async function main() {
     // const tx2 = await game.mint(19000);
     // await tx2.wait();
   
-    const tx3= await game.win(56); // i don't understand how this is not reverting
+    const tx3= await game.win(56); // This is so because uint8 variable only store values for 0 - 255 hence 256 = 0 which means 266 i.e 210 + 56 = 10
 
     // did you win? Check the transaction receipt!
     // if you did, it will be in both the logs and events array
